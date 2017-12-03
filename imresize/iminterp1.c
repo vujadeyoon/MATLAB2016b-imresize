@@ -3,7 +3,7 @@ Dveloper: Sungjun Yoon
 E-mail: sjyoon1671@gmail.com
 Github: https://github.com/vujadeyoon
 
-Title: free_mem_alloc_2.c
+Title: iminterp1.c
 Version: 171203a
 Description: 1D interpolation filter
 **************************************/
