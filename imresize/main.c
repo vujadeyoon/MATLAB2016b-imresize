@@ -7,9 +7,9 @@ Dvelopement environment: MS Visual Studio 2017
 Title: main.c
 Version: 171203a
 Description: implementation of MATLAB built-in function of imresize.
-			 When down-scaling, anti-aliasing filter should be passed before reszing.
-			 The anti-aliasing filter option is decided as the 4th parameter of imresize function.
-			 For reference, the nearest neighborhood interpollation kernel is not supported for the anti-alising.
+ 	     When down-scaling, anti-aliasing filter should be passed before reszing.
+	     The anti-aliasing filter option is decided as the 4th parameter of imresize function.
+	     For reference, the nearest neighborhood interpollation kernel is not supported for the anti-alising.
 **************************************/
 
 #include "header.h"
@@ -40,7 +40,7 @@ int main()
 
 	/*
 	Uncomment the given code lines which you are interest in.
-	out_zoom = imresize(&ori, &out_img_sz_zoom, nearest, true);	  // Nearest neighborhood, Zoom, Anti-aliasing option: true (should not be working because of zooming)
+	out_zoom = imresize(&ori, &out_img_sz_zoom, nearest, true);   // Nearest neighborhood, Zoom, Anti-aliasing option: true (should not be working because of zooming)
 	out_down = imresize(&ori, &out_img_sz_down, nearest, true);   // Nearest neighborhood, Down-scaling, Anti-aliasing option: true (should not be working because of 'nearest' option)
 	out_zoom = imresize(&ori, &out_img_sz_zoom, bilinear, false); // Bilinear, Zoom, Anti-aliasing option: false
 	out_down = imresize(&ori, &out_img_sz_down, bilinear, false); // Bilinear, Down-scaling, Anti-aliasing option: false
